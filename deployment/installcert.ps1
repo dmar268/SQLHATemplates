@@ -1,0 +1,1 @@
+Import-PfxCertificate –FilePath C:\deployment\Dscdemo.pfx cert:\localMachine\my -Password $(ConvertTo-SecureString -String "P@ssword" -Force –AsPlainText)
